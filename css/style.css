@@ -9,9 +9,8 @@ html{
 	font-size: 62.5%;
 }
 body{
-	background-image: url(../img/fondo.jpg);
+	background: linear-gradient(to top,white, rgb(255, 198, 213));
 }
-
 
 /*--------------------INDEX	-----------------------------*/
 
@@ -165,6 +164,7 @@ body{
 }
 	.tituloTrabajo h1{
 		display: flex;
+		align-items: center;
 		justify-content: center;
 		font-size: 3rem;
 		background-color: purple;
@@ -210,7 +210,7 @@ body{
 @media only screen and (min-width: 1024px){
 	.contenedor2{
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 15% 10% 70% 5%;
+	grid-template-rows: 10% 10% 70% 5%;
 	grid-template-areas: "nav2 nav2 nav2" 
 	"titulo titulo aside"
 	"img2 img2 aside"
@@ -320,7 +320,7 @@ body{
 
 }
 	.tablaEsmalte table{
-		background-color: rgba(237, 120, 255, 1.0);
+		background-color: rgb(255, 198, 213);
 		margin-bottom: 5rem;
 	}
 
@@ -346,7 +346,7 @@ body{
 	font-size: 3rem;
 }
 	.tablaKapping table{
-		background-color: rgba(237, 120, 255, 1.0);
+		background-color: rgb(255, 198, 213);
 		
 	}
 
@@ -372,7 +372,7 @@ body{
 	font-size: 3rem;
 }
 	.tablaExtension table{
-		background-color: rgba(237, 120, 255, 1.0);
+		background-color: rgb(255, 198, 213);
 		margin-bottom: 5rem;
 		
 	}
@@ -403,7 +403,7 @@ body{
 @media only screen and (min-width: 1024px){
 	.contenedor3{
 		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: 10% 12% 13% 60% 6%;
+		grid-template-rows: 10% 12% 10% 60% 6%;
 		grid-template-areas: 
 		"nav3 nav3 nav3" 
 		"tituloP tituloP tituloP" 
@@ -687,11 +687,18 @@ body{
 	.mainNav ul li{
 		color: black;
 		margin: 2rem;
+
 	}
+	.mainNav ul li:hover{
+		transform: scale(1.3);
+		cursor: pointer;
+		transition: 1s 
+	}
+
 		.mainNav ul li a:hover{
-				font-weight: 800;
-				color: white;			
+			color: white;			
 			}
+	
 
 
 
