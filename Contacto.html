@@ -1,107 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CONTACTO</title>
-	<link rel="stylesheet" href="css/style.css">
-	<!-- WOW -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>AP UÑAS</title>
+    <!-- WOW -->
 	<link rel="stylesheet" href="css/animate.css">
 	<script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
-</head>
-<body>
-	<div class="contenedor5">
-		<nav class="mainNav wow fadeInDown" id="botonera5">
-			<a href="index.html">
-			<h1>AP UÑAS</h1>
-			</a>
-			<ul>
-			<li><a href="Trabajos.html">Trabajos</a></li>
-			<li><a href="Precios.html">Precios</a></li>
-			<li><a href="Sobre mi.html">Sobre mi</a></li>
-			<li><a href="contacto.html">contacto</a></li>
-			</ul>
-		</nav>
-		
-			<div id="tituloC" class="tituloContacto wow fadeIn">
-				<h2>Contacto</h2>
-			</div>
-			
-			<div id="tituloD" class="datosPersonales" >
-				<h3>Datos personales/Pedido</h3>
-			</div>
-					<!-- Inicia form -->
-				<div id="form" class="tablaA">
+  </head>
+ <body>
+	<!-- inica nav-->
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top" id="botonera">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="index.html"><h1 class="w-50 tituloAP">AP UÑAS</h1></a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	      <div class="navbar-nav ms-auto">
+	        <a class="nav-link" aria-current="page" href="Trabajos.html">Trabajos</a>
+	        <a class="nav-link" href="Precios.html">Precios</a>
+	        <a class="nav-link" href="Sobre mi.html">Sobre mi</a>
+	        <a class="nav-link" href="contacto.html">Contacto</a>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+	<!-- ends nav -->
 
-					<form action="envio.php" method="post">
-							<label for="Nombre">Nombre</label>
-							<input type="text" placeholder="nombre" name=Nombre id="Nombre">
-							
-							<label for="Apellido">Apellido</label>
-							<input type="text" placeholder="apellido" name="Apellido" id="Apellido">
-							
-							<label for="E-mail">E-mail</label>
-							<input type="text" placeholder="mail@mail.com" name="E-mail" id="E-mail">
-						
-
-						
-							<h4>Pedido</h4>
-						
-
-						
-							<label for="Esmalte Semipermanente">Esmalte Semipermanente</label>
-							<input type="checkbox" name="Esmalte Semipermanente" id="Esmalte Semipermanente">
-							
-							<label for="Kapping">Kapping</label>
-							<input type="checkbox" name="Kapping" id="Kapping">
-
-							<label for="Extensión">Extensión</label>
-							<input type="checkbox" name="Extensión" id="Extensión">
-						
-								<h4>Modo de pago</h4>
-							
-						
-							<label for="Efectivo">Efectivo</label>
-							<input type="radio" name="Efectivo" id="Efectivo" value="Efectivo">
-							<label for="Tarjeta">Tarjeta</label>
-							<input type="radio" name="Efectivo" id="Tarjeta" value="Tarjeta">
-						
-							<h5>Deja tu mensaje</h5>
-						
-						<select name="localidad" id="localidad" >
-						<option value="caba">CABA</option>
-						<option value="buenos aires">buenos aires</option>
-						<option value="interior">interior</option>
-						</select>						
-						<label for="mensaje"></label>
-						<textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-						<br>				
-						<input type="reset" value="Cancelar">
-						<input type="submit" value="Enviar">
-				</form>
-			</div>
-						<!-- Cierra form -->
-
-			<div class="textoMapa wow fadeInLeft" id="textoM">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus labore, aliquid sequi qui in sapiente dolor ex totam exercitationem, ipsam nam quos. Beatae consectetur, atque magnam molestiae voluptas cupiditate cum.
-				</p>
-			</div>
-			<div class="mapa" id="mapa">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.822604316333!2d-58.49257748502043!3d-34.55804666258955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6ede567cd29%3A0x6bc3cc34b1c89969!2sManzanares%204702%2C%20C1431ATB%20CABA!5e0!3m2!1ses-419!2sar!4v1645571715995!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-			</div>
-	
-	<footer class="mainFooter" id="footerC">
-			<a href="https://www.instagram.com/agustina.pujolle/?hl=es-la" target="_blank">
-			<img src="img/instagram.png" alt="Logo de instagram" class="wow pulse" data-wow-duration="2s" data-wow-iteration="2">
-			<img src="img/wpp.png" alt="Logo de wpp"class="wow pulse" data-wow-duration="2s" data-wow-iteration="2">
-			<img src="img/tiktok.webp" alt="logo de tiktok"class="wow pulse" data-wow-duration="2s" data-wow-iteration="2">
-			</a>
-			<p class="wow pulse">SEGUINOS EN NUESTRAS REDES</p>	
-		</footer>
+<section class="py-2 m-2">
+	<div class="conteiner-fluid d-flex justify-content-center align-items-center">
+		<div class="row">
+			<h2 class="tituloText rounded-pill">
+				CONTACTO
+			</h2>
+		</div>
 	</div>
-</body>
+</section>
+
+<section class="py-5">
+	<div class="container-fluid ">
+		<div class="row d-flex justify-content-center">
+			<article class="col-10">
+
+					<div class="mb-3">
+						<i class="bi bi-align-end"></i>
+					  <label for="exampleFormControlInput1" class="form-label" id="tituloEM">Email address</label>
+					  <i class="bi bi-align-start"></i>
+					  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					</div>
+					<div class="mb-3">
+						<i class="bi bi-align-end"></i>
+					  <label for="exampleFormControlTextarea1" class="form-label" id="tituloEX">Textarea</label>
+					  <i class="bi bi-align-start"></i>
+					  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+				
+			</article>
+		</div>
+	</div>
+</section>
+
+<section class="py-5">
+	<div class="container-fluid ">
+		<div class="row d-flex justify-content-center align-items-center" id="tituloMapa">
+			<h3 class="rounded-pill tituloMapa">
+			ENCONTRANOS EN
+		</h3>
+			<article class="col-10 mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.822604316333!2d-58.49257748502043!3d-34.55804666258955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6ede567cd29%3A0x6bc3cc34b1c89969!2sManzanares%204702%2C%20C1431ATB%20CABA!5e0!3m2!1ses-419!2sar!4v1645571715995!5m2!1ses-419!2sar" class="w-100"  height="450" allowfullscreen="" loading="lazy">
+					</iframe>
+
+			</article>
+		</div>
+	</div>
+</section>
+
+
+	<footer>	
+		<div class="redes">
+		<a href="https://www.instagram.com/agustina.pujolle/?hl=es-la" target="_blank">
+		<i class="bi bi-instagram"></i></a>
+		<i class="bi bi-whatsapp"></i>
+		<i class="bi bi-tiktok">
+		</i>
+	</div>
+
+</footer>
+			
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+ </body>
 </html>

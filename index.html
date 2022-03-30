@@ -1,56 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>AP UÑAS</title>
-	<link rel="stylesheet" href="css/style.css">
-	<!-- WOW -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <title>AP UÑAS</title>
+    <!-- WOW -->
 	<link rel="stylesheet" href="css/animate.css">
 	<script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
-</head>
-<body>
-	<div class="contenedor">
-
-	<nav id="botonera" class="mainNav wow fadeInDown" >
-			<a href="index.html">
-			<h1>AP UÑAS</h1>
-			</a>
-			<ul>
-			<li><a href="Trabajos.html">Trabajos</a></li>
-			<li><a href="Precios.html">Precios</a></li>
-			<li><a href="Sobre mi.html">Sobre mi</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
-		</ul>
+  </head>
+ <body>
+	<!-- inica nav-->
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top" id="botonera">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="index.html"><h1 class="w-50 tituloAP">AP UÑAS</h1></a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	      <div class="navbar-nav ms-auto">
+	        <a class="nav-link" aria-current="page" href="Trabajos.html">Trabajos</a>
+	        <a class="nav-link" href="Precios.html">Precios</a>
+	        <a class="nav-link" href="Sobre mi.html">Sobre mi</a>
+	        <a class="nav-link" href="contacto.html">Contacto</a>
+	      </div>
+	    </div>
+	  </div>
 	</nav>
+	<!-- ends nav -->
 
-		<div id="img" class="indexImg">
-			<img src="img/logo.jpg" alt="Logo de AP UÑAS">
+<section class="py-5">
+	<div class="container-fluid ">
+		<div class="row d-flex justify-content-center">
+			<article class="col-10 col-md-8 col-xl-6">
+				<img src="img/logo.jpg" alt="logo de la marca de uñas" class="w-100 img-thumbnail rounded" id="imagenIndex">
+			</article>
 		</div>
-	
-	<div id="text" class="indexDiv"> 
-
-		<h2>LOREM</h2>
-
-		<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam beatae omnis, ex, officia voluptatem tempora, laborum quo dolorum consequuntur animi quaerat vel dignissimos veritatis inventore. Aliquam reprehenderit asperiores possimus quo! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua.
-		</p>
-		
 	</div>
-	<footer id="footer" class="mainFooter">
-			<a href="https://www.instagram.com/agustina.pujolle/?hl=es-la" target="_blank">
-			<img src="img/instagram.png" alt="Logo de instagram" class="wow pulse" data-wow-duration="2s" data-wow-iteration="2">
-			<img src="img/wpp.png" alt="Logo de wpp"class="wow pulse" data-wow-duration="2s" data-wow-iteration="2">
-			<img src="img/tiktok.webp" alt="logo de tiktok"class="wow pulse" data-wow-duration="2s" data-wow-iteration="2">
-			</a>
-			<p class="wow pulse">SEGUINOS EN NUESTRAS REDES</p>	
-	</footer>
-</div>
-</body>
+</section>
 
+
+<section class="py-3" >
+	<div class="container-fluid ">
+		<div class="row d-flex justify-content-center">
+			<article class="col-10">
+				<p id="textoIndex">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iusto, sequi. Explicabo facere amet necessitatibus aliquam nam magnam sit voluptatum harum, totam repudiandae cum quod alias fuga, voluptate incidunt deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</article>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+	<footer>	
+		<div class="redes">
+		<a href="https://www.instagram.com/agustina.pujolle/?hl=es-la" target="_blank">
+		<i class="bi bi-instagram"></i></a>
+		<i class="bi bi-whatsapp"></i>
+		<i class="bi bi-tiktok">
+		</i>
+	</div>
+
+</footer>
+			
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+ </body>
 </html>
-
-
