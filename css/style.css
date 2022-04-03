@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&display=swap');
 
 *{
 	font-family: 'Roboto', sans-serif;
@@ -10,6 +10,11 @@ html{
 	font-size: 62.5%;
 }
 
+.tituloAP{
+	font-size: 5rem;
+	font-family: 'Charmonman', cursive;
+}
+
 
 /*--------------------NAV-----------------------------*/
 
@@ -17,9 +22,11 @@ html{
 #botonera{
 	background-color: rgb(255, 198, 213);
 	font-size: 2.3rem;
+
 }
 	#botonera a{
 		padding: 2rem;
+		font-family: 'Fredoka One', cursive;
 	}
 
 	#botonera a:hover{
@@ -28,11 +35,6 @@ html{
 
 /*--------------------INDEX-----------------------------*/
 	
-.tituloAP{
-	font-size: 4rem;
-}
-
-
 #textoIndex{
 	background-color: rgb(255, 198, 213);
 	border-style: solid;
@@ -55,13 +57,101 @@ html{
 
 #fondoImg{
 	background-color: rgb(255, 198, 213);
+
 }
+
+#foto1{
+	background-color: rgb(255, 237, 243);
+}
+	#foto1 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto2{
+	background-color: rgb(255, 237, 243);
+}
+	#foto2 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto3{
+	background-color: rgb(255, 237, 243);
+}
+	#foto3 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto4{
+	background-color: rgb(255, 237, 243);
+}
+	#foto4 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto5{
+	background-color: rgb(255, 237, 243);
+}
+	#foto5 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto6{
+	background-color: rgb(255, 237, 243);
+}
+	#foto6 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto7{
+	background-color: rgb(255, 237, 243);
+}
+	#foto7 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
+
+#foto8{
+	background-color: rgb(255, 237, 243);
+}
+	#foto8 p{
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.4rem;
+	}
 
 .preguntas{
 	background-color: rgb(255, 198, 213);
 	font-family: 'Indie Flower', cursive;
 
 }
+
+#botoness{
+	text-align: center;
+}
+
+#botonPreguntas1{
+	background-color: rgb(255, 237, 243);
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.5rem;
+}
+
+#botonPreguntas2{
+	background-color: rgb(255, 198, 213);
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.5rem;
+}
+
+#botonPreguntas3{
+	background-color: rgb(255, 237, 243);
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.5rem;
+}
+
 
 /*--------------------PRECIOS-----------------------------*/
 
