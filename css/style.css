@@ -1,281 +1,182 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Charmonman&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Charmonman&display=swap");
+html {
+  font-size: 62.5%; }
 
-*{
-	font-family: 'Roboto', sans-serif;
-}
+.tituloText {
+  background-color: #ffc6d5;
+  font-family: "Indie Flower", cursive;
+  font-size: 4rem; }
 
-html{
-	font-size: 62.5%;
-}
+.tituloAP {
+  font-size: 5rem;
+  font-family: "Charmonman", cursive; }
 
-.tituloAP{
-	font-size: 5rem;
-	font-family: 'Charmonman', cursive;
-}
+#botonera {
+  background-color: #ffc6d5;
+  font-size: 2.3rem; }
+  #botonera a {
+    padding: 2rem;
+    font-family: "Fredoka One", cursive; }
+  #botonera:hover {
+    color: white; }
 
+footer {
+  display: flex;
+  background-color: #ffc6d5;
+  width: 100%;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem; }
 
-/*--------------------NAV-----------------------------*/
+.bi-instagram {
+  font-size: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black; }
+  .bi-instagram:hover {
+    color: #e356a4; }
 
+.bi-whatsapp {
+  font-size: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black; }
+  .bi-whatsapp:hover {
+    color: #289c28; }
 
-#botonera{
-	background-color: rgb(255, 198, 213);
-	font-size: 2.3rem;
+.bi-tiktok {
+  font-size: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black; }
+  .bi-tiktok:hover {
+    color: white; }
 
-}
-	#botonera a{
-		padding: 2rem;
-		font-family: 'Fredoka One', cursive;
-	}
+#textoIndex {
+  background-color: #ffc6d5;
+  border-style: solid;
+  padding: 2rem;
+  font-size: 1.3rem; }
+  @media (min-width: 1024px) {
+    #textoIndex {
+      font-size: 2rem; } }
 
-	#botonera a:hover{
-		color: white;
-	}
+#fondoImg {
+  background-color: #ffc6d5; }
 
-/*--------------------INDEX-----------------------------*/
-	
-#textoIndex{
-	background-color: rgb(255, 198, 213);
-	border-style: solid;
-	padding: 2rem;
-	font-size: 1.3rem;
-}
+#foto1 {
+  background-color: #ffedf3; }
+  #foto1 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem; }
 
-@media only screen and (min-width: 1024px){
-	#textoIndex{
-		font-size: 2rem;
-	}
-}
+#foto2 {
+  background-color: #ffedf3; }
+  #foto2 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem; }
 
-/*--------------------TRABAJOS-----------------------------*/
-.tituloText{
-	background-color: rgb(255, 198, 213);
-	font-family: 'Indie Flower', cursive;
-	font-size: 4rem;
-}
+#foto3 {
+  background-color: #ffedf3; }
+  #foto3 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem; }
 
-#fondoImg{
-	background-color: rgb(255, 198, 213);
+#foto4 {
+  background-color: #ffedf3; }
+  #foto4 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem; }
 
-}
+#foto5 {
+  background-color: #ffedf3; }
+  #foto5 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem; }
 
-#foto1{
-	background-color: rgb(255, 237, 243);
-}
-	#foto1 p{
-		font-family: 'Indie Flower', cursive;
-		font-size: 1.4rem;
-	}
+#foto6 {
+  background-color: #ffedf3; }
+  #foto6 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem; }
 
-#foto2{
-	background-color: rgb(255, 237, 243);
-}
-	#foto2 p{
-		font-family: 'Indie Flower', cursive;
-		font-size: 1.4rem;
-	}
+#foto7 {
+  background-color: #ffedf3; }
+  #foto7 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem; }
 
-#foto3{
-	background-color: rgb(255, 237, 243);
-}
-	#foto3 p{
-		font-family: 'Indie Flower', cursive;
-		font-size: 1.4rem;
-	}
+#foto8 {
+  background-color: #ffedf3; }
+  #foto8 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem; }
 
-#foto4{
-	background-color: rgb(255, 237, 243);
-}
-	#foto4 p{
-		font-family: 'Indie Flower', cursive;
-		font-size: 1.4rem;
-	}
+.preguntas {
+  background-color: #ffc6d5;
+  font-family: "Indie Flower", cursive; }
 
-#foto5{
-	background-color: rgb(255, 237, 243);
-}
-	#foto5 p{
-		font-family: 'Indie Flower', cursive;
-		font-size: 1.4rem;
-	}
+#botonPreguntas1 {
+  background-color: #ffedf3;
+  font-family: "Indie Flower", cursive;
+  font-size: 2.5rem; }
 
-#foto6{
-	background-color: rgb(255, 237, 243);
-}
-	#foto6 p{
-		font-family: 'Indie Flower', cursive;
-		font-size: 1.4rem;
-	}
+#botonPreguntas2 {
+  background-color: #ffc6d5;
+  font-family: "Indie Flower", cursive;
+  font-size: 2.5rem; }
 
-#foto7{
-	background-color: rgb(255, 237, 243);
-}
-	#foto7 p{
-		font-family: 'Indie Flower', cursive;
-		font-size: 1.4rem;
-	}
+#botonPreguntas3 {
+  background-color: #ffedf3;
+  font-family: "Indie Flower", cursive;
+  font-size: 2.5rem; }
 
-#foto8{
-	background-color: rgb(255, 237, 243);
-}
-	#foto8 p{
-		font-family: 'Indie Flower', cursive;
-		font-size: 1.4rem;
-	}
+.titulosP {
+  font-family: "Indie Flower", cursive;
+  font-size: 2.3rem; }
 
-.preguntas{
-	background-color: rgb(255, 198, 213);
-	font-family: 'Indie Flower', cursive;
+.bi-dash-lg {
+  color: #ffc6d5; }
 
-}
+#tabla1 {
+  font-size: 1.6rem; }
 
-#botoness{
-	text-align: center;
-}
+#tabla2 {
+  font-size: 1.6rem; }
 
-#botonPreguntas1{
-	background-color: rgb(255, 237, 243);
-	font-family: 'Indie Flower', cursive;
-	font-size: 2.5rem;
-}
+#tabla3 {
+  font-size: 1.6rem; }
 
-#botonPreguntas2{
-	background-color: rgb(255, 198, 213);
-	font-family: 'Indie Flower', cursive;
-	font-size: 2.5rem;
-}
+#textoSobremi {
+  background-color: #ffc6d5;
+  border-style: dotted;
+  font-size: 1.5rem; }
+  @media (min-width: 992px) {
+    #textoSobremi {
+      font-size: 2rem;
+      padding: 1rem;
+      margin-left: 2rem; } }
 
-#botonPreguntas3{
-	background-color: rgb(255, 237, 243);
-	font-family: 'Indie Flower', cursive;
-	font-size: 2.5rem;
-}
+#tituloEM {
+  font-size: 2rem;
+  font-family: "Indie Flower", cursive; }
 
+#tituloEX {
+  font-size: 2rem;
+  font-family: "Indie Flower", cursive; }
 
-/*--------------------PRECIOS-----------------------------*/
+.tituloMapa {
+  background-color: #ffc6d5;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 3rem;
+  border-style: dashed;
+  margin-bottom: 3rem; }
 
-.titulosP{
-	font-family: 'Indie Flower', cursive;
-	font-size: 2.3rem;
-
-}
-
-.bi-dash-lg{
-	color: rgb(255, 198, 213);
-}
-
-#tabla1{
-	font-size: 1.6rem;
-}
-
-#tabla2{
-	font-size: 1.6rem;
-}
-
-#tabla3{
-	font-size: 1.6rem;
-}
-
-#botonprecios{
-}
-
-.textoImagen{
-	background-color: rgb(255, 198, 213);
-	display: flex;
-	flex-direction: column;
-	border-style: solid;
-}
-
-.titulo5{
-	text-align: center;
-	font-size: 2rem;
-	font-family: 'Indie Flower', cursive;
-}
-/*--------------------SOBRE MI-----------------------------*/
-
-#textoSobremi{
-	background-color: rgb(255, 198, 213);
-	border-style: dotted;
-	font-size: 1.5rem;
-}
-
-@media only screen and (min-width: 992px){
-	#textoSobremi{
-		font-size: 2rem;
-		padding: 1rem;
-		margin-left: 2rem;
-	}
-}
-
-/*--------------------CONTACTO-----------------------------*/
-
-#tituloEM{
-	font-size: 2rem;
-	font-family: 'Indie Flower', cursive;
-}
-
-#tituloEX{
-	font-size: 2rem;
-	font-family: 'Indie Flower', cursive;
-}
-
-.tituloMapa{
-	background-color: rgb(255, 198, 213);
-	text-align: center;
-	font-family: 'Indie Flower', cursive;
-	font-size: 3rem;
-	border-style: dashed;
-	margin-bottom: 3rem;
-}
-
-.mapa{
-	border-style: solid;
-	margin: 0;
-	padding: 0;
-}
-
-/*--------------------FOOTER-----------------------------*/
-footer{
-	display: flex;
-	background-color: rgb(255, 198, 213);
-	width: 100%;
-	height: 55px;
-	justify-content: center;
-	align-items: center;
-	margin-top: 1rem;
-
-}
-.redes{
-	display: inline-block;
-}
-
-.bi-instagram{
- font-size: 40px;
- margin-left: 5px;
- margin-right: 5px;
- color: black;
-}
-
-	.bi-instagram:hover{
-		color: rgb(227, 86, 164);
-	}
-
-.bi-whatsapp{
-	font-size: 40px;
- 	margin-left: 5px;
-	margin-right: 5px;
- 	color: black;
-}
-	.bi-whatsapp:hover{
-		color: rgb(40, 156, 40);
-	}
-.bi-tiktok{
-	font-size: 40px;
- 	margin-left: 5px;
-	 margin-right: 5px;
- 	color: black;
-}
-	.bi-tiktok:hover{
-		color: white;
-	}
+.mapa {
+  border-style: solid;
+  margin: 0;
+  padding: 0; }

@@ -1,0 +1,25 @@
+//nesting
+
+.tituloText{
+	background-color: $mainColor;
+	font-family: $fontTitulo;
+	font-size: 4rem;
+}
+
+
+.tituloAP{
+	font-size: 5rem;
+	font-family: $fontLogo;
+}
+
+#botonera{
+	background-color: $mainColor;
+	font-size: 2.3rem;
+	a{
+	padding: 2rem;
+	font-family: $fontNAV;	
+	}
+	&:hover{
+		color: white;
+	}
+}
