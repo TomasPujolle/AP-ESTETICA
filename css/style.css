@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Charmonman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amita&display=swap");
 html {
   font-size: 62.5%; }
 
@@ -18,9 +19,10 @@ html {
   font-size: 2.3rem; }
   #botonera a {
     padding: 2rem;
+    margin: 1rem;
     font-family: "Fredoka One", cursive; }
-  #botonera:hover {
-    color: white; }
+    #botonera a:hover {
+      color: white; }
 
 footer {
   display: flex;
@@ -55,14 +57,16 @@ footer {
   .bi-tiktok:hover {
     color: white; }
 
-#textoIndex {
+#textoIndex, #textoIndex-Font {
   background-color: #ffc6d5;
   border-style: solid;
-  padding: 2rem;
-  font-size: 1.3rem; }
+  padding: 2rem; }
   @media (min-width: 1024px) {
-    #textoIndex {
+    #textoIndex, #textoIndex-Font {
       font-size: 2rem; } }
+
+#textoIndex-Font {
+  font-size: 1.3rem; }
 
 #fondoImg {
   background-color: #ffc6d5; }
@@ -70,50 +74,50 @@ footer {
 #foto1 {
   background-color: #ffedf3; }
   #foto1 p {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.4rem; }
+    font-family: "Charmonman", cursive;
+    font-size: 2.5rem; }
 
 #foto2 {
   background-color: #ffedf3; }
   #foto2 p {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.4rem; }
+    font-family: "Charmonman", cursive;
+    font-size: 2.5rem; }
 
 #foto3 {
   background-color: #ffedf3; }
   #foto3 p {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.4rem; }
+    font-family: "Charmonman", cursive;
+    font-size: 2.5rem; }
 
 #foto4 {
   background-color: #ffedf3; }
   #foto4 p {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.4rem; }
+    font-family: "Charmonman", cursive;
+    font-size: 2.5rem; }
 
 #foto5 {
   background-color: #ffedf3; }
   #foto5 p {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.4rem; }
+    font-family: "Charmonman", cursive;
+    font-size: 2.5rem; }
 
 #foto6 {
   background-color: #ffedf3; }
   #foto6 p {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.4rem; }
+    font-family: "Charmonman", cursive;
+    font-size: 2rem; }
 
 #foto7 {
   background-color: #ffedf3; }
   #foto7 p {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.4rem; }
+    font-family: "Charmonman", cursive;
+    font-size: 2.5rem; }
 
 #foto8 {
   background-color: #ffedf3; }
   #foto8 p {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.4rem; }
+    font-family: "Charmonman", cursive;
+    font-size: 2.5rem; }
 
 .preguntas {
   background-color: #ffc6d5;
@@ -122,17 +126,17 @@ footer {
 #botonPreguntas1 {
   background-color: #ffedf3;
   font-family: "Indie Flower", cursive;
-  font-size: 2.5rem; }
+  font-size: 3rem; }
 
 #botonPreguntas2 {
   background-color: #ffc6d5;
   font-family: "Indie Flower", cursive;
-  font-size: 2.5rem; }
+  font-size: 3rem; }
 
 #botonPreguntas3 {
   background-color: #ffedf3;
   font-family: "Indie Flower", cursive;
-  font-size: 2.5rem; }
+  font-size: 3rem; }
 
 .titulosP {
   font-family: "Indie Flower", cursive;

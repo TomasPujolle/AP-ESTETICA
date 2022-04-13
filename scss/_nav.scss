@@ -16,10 +16,11 @@
 	background-color: $mainColor;
 	font-size: 2.3rem;
 	a{
-	padding: 2rem;
+	@include p-m(2rem, 1rem)
 	font-family: $fontNAV;	
-	}
+	
 	&:hover{
 		color: white;
 	}
+}
 }

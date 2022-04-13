@@ -2,8 +2,13 @@
 	background-color: $mainColor;
 	border-style: solid;
 	padding: 2rem;
-	font-size: 1.3rem;
+	
 	@media (min-width: 1024px){
 		font-size: 2rem;
 	}
+}
+
+#textoIndex-Font{
+	@extend #textoIndex;
+	font-size: 1.3rem;
 }

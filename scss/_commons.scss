@@ -7,3 +7,20 @@ html{
 
 $mainColor:rgb(255, 198, 213);
 $secondColor: rgb(255, 237, 243);
+
+
+@mixin p-m($padding, $margin){
+	padding:$padding;
+	margin:$margin;
+}
+
+
+
+//map
+
+$paleta:(
+	"uno":black,
+	"dos":white,
+	"tres":#289c28,
+	"cuatro":#e356a4,
+	);
