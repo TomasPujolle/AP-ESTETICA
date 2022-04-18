@@ -58,9 +58,9 @@ footer {
     color: white; }
 
 #textoIndex, #textoIndex-Font {
-  background-color: #ffc6d5;
-  border-style: solid;
-  padding: 2rem; }
+  padding: 2rem;
+  text-align: center;
+  font-family: "Amita", cursive; }
   @media (min-width: 1024px) {
     #textoIndex, #textoIndex-Font {
       font-size: 2rem; } }
@@ -119,9 +119,8 @@ footer {
     font-family: "Charmonman", cursive;
     font-size: 2.5rem; }
 
-.preguntas {
-  background-color: #ffc6d5;
-  font-family: "Indie Flower", cursive; }
+.accordion-body {
+  font-size: 1.5rem; }
 
 #botonPreguntas1 {
   background-color: #ffedf3;
