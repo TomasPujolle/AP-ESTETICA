@@ -4,6 +4,10 @@ html{
 	font-size: 62.5%;
 }
 
+html, body {
+    width: 100%!important;
+    overflow-x: hidden!important;
+}
 
 $mainColor:rgb(255, 198, 213);
 $secondColor: rgb(255, 237, 243);

@@ -1,24 +1,43 @@
-#tituloEM{
-	font-size: 2rem;
-	font-family: $fontTitulo;
+#tituloEM {
+    font-size: 2rem;
+    font-family: $fontTitulo;
 }
 
-#tituloEX{
-	font-size: 2rem;
-	font-family: $fontTitulo;
+#tituloEX {
+    font-size: 2rem;
+    font-family: $fontTitulo;
 }
 
-.tituloMapa{
-	background-color: $mainColor;
-	text-align: center;
-	font-family: $fontTitulo;
-	font-size: 3rem;
-	border-style: dashed;
-	margin-bottom: 3rem;
+.tituloMapa {
+    background-color: $mainColor;
+    text-align: center;
+    font-family: $fontTitulo;
+    font-size: 3rem;
+    border-style: dashed;
+    margin-bottom: 3rem;
 }
 
-.mapa{
-	border-style: solid;
-	margin: 0;
-	padding: 0;
+.mapa {
+    border-style: solid;
+    margin: 0;
+    padding: 0;
+}
+
+#enviar {
+    display: flex;
+    justify-content: center;
+	
+	a{
+   	 text-decoration: none;
+   	 color: black;
+   	 width: 12%;
+   	 font-family: $fontTitulo;
+   	 background-color: $mainColor;
+   	 border-style: solid;
+   	 text-align: center;
+    
+      &:hover{
+			color: grey;
+		}
+	}
 }
